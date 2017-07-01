@@ -1,0 +1,76 @@
+body {
+    
+	
+}
+
+ul{
+	font-size:9px;
+	display:inline;
+	list-style: none;
+	text-align: center;
+	margin: auto;
+}
+
+li {
+	display:inline;
+	text-align: center;
+	margin: 0px 20px 0px 20px;
+}
+
+footer {
+	max-width: 800px;
+	text-align: center;
+	clear:both;
+	margin:auto;
+}
+
+#content{
+	width:relative;
+	
+}
+#top {
+	background-image: linear-gradient(0deg, #556f99, #6f8cba);
+	height: 325px;
+
+	
+}
+
+#frame {
+	display: block;
+	margin-top:100px ;
+	float: right;
+	clear:both;
+}
+
+/*#textBox {
+	display: block;
+	margin-top: -100px;
+	width:500px;
+	height:400px;
+	float: right;	
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px black;
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.0),rgba(255,255,255,1) 50%);
+}*/
+
+
+
+#phones {
+	display: block;
+	margin-top:25px ;
+    float: left;
+
+	
+}
+
+#insta {
+	display: block;
+	float:right;
+    clear: left;
+}
+
+#bottom {
+	background-color: white;
+	height:500px;
+	width: relative;
+}
