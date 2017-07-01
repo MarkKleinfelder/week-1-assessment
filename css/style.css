@@ -3,6 +3,10 @@ body {
 	
 }
 
+h1 {
+
+}
+
 ul{
 	font-size:9px;
 	display:inline;
@@ -24,6 +28,10 @@ footer {
 	margin:auto;
 }
 
+a{
+
+}
+
 #content{
 	width:relative;
 	
@@ -35,11 +43,28 @@ footer {
 	
 }
 
-#frame {
-	display: block;
-	margin-top:100px ;
-	float: right;
+#frame{
+
+	background-image: url(../images/frame.png);
+	background-repeat: no-repeat;
+	float:right;
 	clear:both;
+	z-index: 1;
+	height: 280px;
+	width: 503px;
+	
+	
+	
+	
+	
+}
+#textz {
+	/*display: inline;
+	float:right;
+	clear:both;*/
+	width: 400px;
+	z-index: 99;
+	margin:auto ;
 }
 
 /*#textBox {
@@ -54,19 +79,26 @@ footer {
 }*/
 
 
-
+#login {
+	display: inline-block;
+	float: right;
+	background: none;
+	height:40px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
 #phones {
+	z-index:100;
 	display: block;
-	margin-top:25px ;
+	margin-top:-90px ;
     float: left;
-
-	
 }
 
 #insta {
-	display: block;
-	float:right;
-    clear: left;
+	
+    float:right;
+    margin-top: 100px;
+    margin-right: 100px;
 }
 
 #bottom {
