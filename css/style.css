@@ -1,3 +1,7 @@
+html {
+
+}
+
 body {
 	font-family: "Hind Vadodara", sans-serif;
 }
@@ -33,6 +37,7 @@ ul{
 	display:inline;
 	list-style: none;
 	margin: auto;
+	padding: initial;
 }
 
 li {
@@ -48,6 +53,8 @@ footer {
     text-align: center;
 	clear:both;
 	margin:auto;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 a{
@@ -60,15 +67,31 @@ i {
 	padding-right: 6px;
 }
 
-span{
+span.dark{
 	font-weight: bold;
 	color: #444444;
 }
 
 .badge{
-	margin-top:30px;
-	margin-left:50px;
-	margin-right:0px;
+	display: inline-block;
+}
+
+.nowrap {
+	white-space: nowrap;
+	color: darkgrey;
+}
+
+a.clicky {
+	display:inline-block;
+	max-height: 51px;
+	max-width: 150px;
+}
+
+div.badges{
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 20px;
+
 }
 
 #grad {
@@ -124,10 +147,16 @@ span{
 	margin-right: 10px;
 	margin-top: 130px;
 }
+
+#loginSm{
+    display:none;
+}
+
 #phones {
 	z-index:100;
 	display: block;
 	margin-top:-90px ;
+	margin-bottom: 50px;
     float: left;
 }
 
@@ -138,57 +167,215 @@ span{
     margin-right: 75px;
 }
 
+
 #cw {
 	color:lightgrey;
 }
 
 #bottom {
+	display:none;
 	max-width: 900px;
 	background-color: white;
 	height:50px;
 	clear:both;
 }
 
-@media screen and (max-width: 850px){
-#phones{
-	display:none;
+
+
+
+
+
+
+@media screen and (max-width: 855px){
+/*---------------------***VVV 651px-850px VVV***-----------------*/
+
+
+h3{
+	padding-top: 35px;
 }
 
-footer {
-	margin-top: 100px;
-	max-width: 400px
+ul{
+	display:block;
+	list-style: none;
+	margin-top: 350px;
+	padding:inherit;
+}
+
+li {
+	font-weight: bold;
+	font-size:12px;
+	color:#556f99;
+	display:inline;
+	margin-left: 10px;
+	margin-right:10px;
+}
+
+div.badges{
+	display:inline-block;	
+	margin-left:55px;
+
+}
+
+#phones {
+    display: none;
 }
 
 #frame {
-	position:relative;
-	float:none;
-	margin-top: 200px;
+    display:block;
+    margin:auto;
+    float:none;
 	clear:both;
+	z-index: 1;
+	margin-top:-25px;
+	height: 280px;
+	width: 503px;
 }
 
-#textz{
-	margin: auto;
+#textz {
+	display: block;
+	margin-top: 40px;
 }
 
-#insta{
-	position:relative;
+#insta {
 	float:none;
-	margin-top: 80px;
-	clear:both;
+	margin-top: 100px;
+    margin-left:15%;
+    margin-right:25px;
 }
 
 #login {
-	position:relative;
-	float:none;
-	margin-top:35px;
-	clear:both;
+	font-size:15px;
+    display: inline-block;
+	float: right;
+    height:40px;
+	width:100px;
+	margin-right: 15%;
+	margin-top: 120px; 
+	background-image: linear-gradient(0deg, rgb(87, 126, 159), rgb(107, 143, 172));
 }
-#top {
-	margin: auto;
+
+#loginSm{
+	display: none;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 650px){
+/*---------------------***VVV 521px-650px VVV***-----------------*/
+
+
+ul {
+	padding:inherit;
+}
+#insta {
+	display: block;
+	float:none;
+	margin:auto;
+	padding-top: 30px;
+}
+
+#login {
+	display:none;
+	
+}
+
+#loginSm {
+	display:block;
+	height:30px;
+	width:75px;
+	margin:auto;
+	margin-top: 10px;
+	background-image: linear-gradient(0deg, rgb(87, 126, 159), rgb(107, 143, 172));
+
 }
 
 #grad {
-	margin:none;
+	padding-top: 20px;
+	height: 250px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 520px){
+/*---------------------***VVV 320-520px VVV***-----------------*/
+
+
+html {
+	display:table;
+	margin: 0 auto;
+	height: 100%;
+	width:100%;
+}
+
+body{
+	margin:auto;
+}
+
+#grad {
+	min-width: 509px;
+
+
+}
+
+ul{
+	display:inline;
+	list-style: none;
+	margin: auto;
+	padding:initial;
+}
+
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right:15px;
+
+	
+}
+
+footer {
+    text-align: center;
+    float:center;
+	clear:none;
+	margin: 0 auto;
+	margin-top: 350px;
 }
 
 }
+
+@media screen and (max-width: 250px){
+/*---------------------***VVV 0-319px VVV***-----------------*/
+
+
+html{
+	display:block;
+	height:initial;
+}
+
+body {
+    background-image: url(https://cdn.meme.am/cache/instances/folder756/500x/74238756/senor-chang-paper-too-small-to-read.jpg);
+	background-repeat: none;
+	background-size: cover;
+	margin: auto;
+}
+#grad {
+	display:none;
+}
+#frame {
+	display: none;
+}
+#textz {
+	display: none;
+}
+footer {
+	display: none;
+}
+}
+
+
