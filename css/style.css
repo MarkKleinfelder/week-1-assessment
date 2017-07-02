@@ -1,5 +1,5 @@
 body {
-	font-family: "Roboto Condensed", sans-serif;
+	font-family: "Hind Vadodara", sans-serif;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 
 h3 {
 	font-size: 25px;
-	letter-spacing: +1px;
+	line-height: .9;
 	color:#2c4670;
 }
 
@@ -17,9 +17,16 @@ button {
 	border-radius: 2px;
 }
 
+br{
+	display: block;
+	content:"";
+	margin-top:11px;
+
+}
 
 p {
-	line-height: 1.5;
+	font-size: 16px;
+	line-height: 1.6;
 	color:grey;
 }
 ul{
@@ -91,7 +98,7 @@ span{
 	/*display: inline;
 	float:right;
 	clear:both;*/
-	width: 400px;
+	width: 412px;
 	z-index: 99;
 	margin:auto ;
 }
